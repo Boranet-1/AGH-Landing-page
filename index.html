@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazing Grace High School - Excellence in Education</title>
+
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <img src="assets/logo.png" alt="AGH Logo" class="logo-img">
+        <span class="logo-text">AGH</span>
+      </div>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#mission">Mission & Vision</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">
+            More <i class="fas fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#news">News & Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-background">
+      <img src="assets/hero-background.png" alt="Amazing Grace High School Campus" class="hero-bg-img">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Welcome to Amazing Grace High School</h1>
+        <p>Empowering Future Leaders with Excellence in Education and Character Development</p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">Discover More</a>
+          <a href="#admissions" class="btn btn-secondary">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Amazing Grace High School</h2>
+          <p>Established in 1998, Amazing Grace High School stands as a beacon of educational excellence in Nigeria. We are committed to nurturing young minds through a comprehensive approach that combines academic rigor with character development.</p>
+          <p>Our institution has consistently produced outstanding graduates who excel in universities and contribute meaningfully to society. With state-of-the-art facilities and dedicated faculty, we provide an environment where students can discover their potential and pursue their dreams.</p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <h3>1,200+</h3>
+              <p>Students Enrolled</p>
+            </div>
+            <div class="stat-item">
+              <h3>98%</h3>
+              <p>University Admission Rate</p>
+            </div>
+            <div class="stat-item">
+              <h3>50+</h3>
+              <p>Experienced Teachers</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="assets/school-building.jpg" alt="Amazing Grace High School Building">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section id="mission" class="mission-section">
+    <div class="container">
+      <div class="mission-content">
+        <div class="mission-item">
+          <div class="mission-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h3>Our Mission</h3>
+          <p>To provide a nurturing and dynamic educational environment where students excel academically and morally, developing critical thinking skills and strong character foundation for lifelong success.</p>
+        </div>
+        <div class="mission-item">
+          <div class="mission-icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <h3>Our Vision</h3>
+          <p>To raise globally competent and compassionate leaders through quality education founded on Christian values, preparing students to make positive contributions to their communities and the world.</p>
+        </div>
+        <div class="mission-item">
+          <div class="mission-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3>Our Values</h3>
+          <p>Excellence, Integrity, Compassion, Innovation, and Respect guide everything we do, creating a supportive community where every student can thrive and reach their full potential.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Programs -->
+  <section id="academics" class="academics-section">
+    <div class="container">
+      <h2>Academic Programs</h2>
+      <p class="section-subtitle">Comprehensive education designed to prepare students for future success</p>
+      
+      <div class="academics-grid">
+        <div class="academic-card">
+          <img src="assets/science-lab.png" alt="Science Laboratory">
+          <div class="card-content">
+            <h3>STEM Excellence</h3>
+            <p>Advanced Science, Technology, Engineering, and Mathematics programs with hands-on laboratory experiences and innovative teaching methods.</p>
+            <ul>
+              <li>Physics, Chemistry, Biology</li>
+              <li>Mathematics & Further Mathematics</li>
+              <li>Computer Science & Programming</li>
+              <li>Engineering Fundamentals</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="academic-card">
+          <img src="assets/art-class.jpg" alt="Arts and Humanities Class">
+          <div class="card-content">
+            <h3>Arts & Humanities</h3>
+            <p>Comprehensive liberal arts education fostering creativity, critical thinking, and cultural awareness through diverse academic disciplines.</p>
+            <ul>
+              <li>Literature & Creative Writing</li>
+              <li>History & Government</li>
+              <li>Geography & Economics</li>
+              <li>Visual Arts & Music</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="academic-card">
+          <img src="assets/ict.jpg" alt="ICT Laboratory">
+          <div class="card-content">
+            <h3>Digital Technology</h3>
+            <p>Cutting-edge technology education preparing students for the digital future with practical skills and theoretical knowledge.</p>
+            <ul>
+              <li>Web Development & Design</li>
+              <li>Data Science & Analytics</li>
+              <li>Robotics & AI Fundamentals</li>
+              <li>Digital Media Production</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities Section -->
+  <section id="activities" class="activities-section">
+    <div class="container">
+      <h2>Student Life & Activities</h2>
+      <div class="activities-content">
+        <div class="activity-text">
+          <h3>Beyond the Classroom</h3>
+          <p>At Amazing Grace High School, we believe in developing well-rounded individuals. Our extensive extracurricular programs provide students with opportunities to explore their interests, develop leadership skills, and build lasting friendships.</p>
+          <div class="activity-list">
+            <div class="activity-item">
+              <i class="fas fa-trophy"></i>
+              <span>Sports & Athletics</span>
+            </div>
+            <div class="activity-item">
+              <i class="fas fa-music"></i>
+              <span>Music & Performing Arts</span>
+            </div>
+            <div class="activity-item">
+              <i class="fas fa-users"></i>
+              <span>Student Clubs & Societies</span>
+            </div>
+            <div class="activity-item">
+              <i class="fas fa-hands-helping"></i>
+              <span>Community Service</span>
+            </div>
+          </div>
+        </div>
+        <div class="activity-image">
+          <img src="assets/school-activities.jpg" alt="Students engaged in various activities">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Faculty Section -->
+  <section id="faculty" class="faculty-section">
+    <div class="container">
+      <h2>Meet Our Dedicated Faculty</h2>
+      <p class="section-subtitle">Passionate educators committed to student success</p>
+      
+      <div class="faculty-grid">
+        <div class="faculty-card">
+          <img src="assets/principal.jpg" alt="Mr. James Ojo - Principal">
+          <div class="faculty-info">
+            <h3>Mr. James Ojo</h3>
+            <p class="faculty-title">Principal</p>
+            <p class="faculty-bio">25+ years of educational leadership experience. M.Ed in Educational Administration from University of Lagos.</p>
+            <div class="faculty-contact">
+              <i class="fas fa-envelope"></i>
+              <span>j.ojo@amazinggrace.edu.ng</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faculty-card">
+          <img src="assets/science.jpg" alt="Mr. Henry Eze - Head of Science">
+          <div class="faculty-info">
+            <h3>Mr. Henry Eze</h3>
+            <p class="faculty-title">Head of Science Department</p>
+            <p class="faculty-bio">PhD in Chemistry, passionate about making science accessible and engaging for all students.</p>
+            <div class="faculty-contact">
+              <i class="fas fa-envelope"></i>
+              <span>h.eze@amazinggrace.edu.ng</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faculty-card">
+          <img src="assets/ict-teacher.jpg" alt="Miss Joy Afolabi - ICT Instructor">
+          <div class="faculty-info">
+            <h3>Miss Joy Afolabi</h3>
+            <p class="faculty-title">ICT & Programming Instructor</p>
+            <p class="faculty-bio">Computer Science graduate specializing in software development and digital literacy education.</p>
+            <div class="faculty-contact">
+              <i class="fas fa-envelope"></i>
+              <span>j.afolabi@amazinggrace.edu.ng</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faculty-card">
+          <img src="assets/english-teacher.jpg" alt="Dr. Samuel Adebayo - English Department">
+          <div class="faculty-info">
+            <h3>Dr. Samuel Adebayo</h3>
+            <p class="faculty-title">Head of English Department</p>
+            <p class="faculty-bio">Literature PhD with expertise in creative writing and critical analysis, published author.</p>
+            <div class="faculty-contact">
+              <i class="fas fa-envelope"></i>
+              <span>s.adebayo@amazinggrace.edu.ng</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="load-more-container">
+        <button class="btn btn-outline" onclick="loadMoreFaculty()">
+          <i class="fas fa-plus"></i> Load More Faculty
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <h2>What Our Community Says</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <img src="assets/father.jpg" alt="Mr. Okonkwo" class="testimonial-photo">
+          <div class="testimonial-content">
+            <p>"My daughter has grown tremendously both academically and spiritually since joining Amazing Grace. The teachers genuinely care about each student's development, and the school has become like a second home to our family."</p>
+            <div class="testimonial-author">
+              <strong>Mr. Chinedu Okonkwo</strong>
+              <span>Parent of SS2 Student</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <img src="assets/student.jpg" alt="Daniel - SS2 Student" class="testimonial-photo">
+          <div class="testimonial-content">
+            <p>"The learning environment at Amazing Grace is exceptional. The teachers push us to excel while providing the support we need. I've developed confidence in my abilities and made lifelong friendships here."</p>
+            <div class="testimonial-author">
+              <strong>Daniel Okoro</strong>
+              <span>SS2 Student</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <img src="assets/alumni.jpg" alt="Dr. Greece Adams - Alumni" class="testimonial-photo">
+          <div class="testimonial-content">
+            <p>"Amazing Grace laid the foundation for my success. The values instilled in me here continue to guide my career as a medical doctor. I'm proud to be an alumna of this great institution."</p>
+            <div class="testimonial-author">
+              <strong>Dr. Greece Adams</strong>
+              <span>Alumni, Class of 2015</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News & Events -->
+  <section id="news" class="news-section">
+    <div class="container">
+      <h2>Latest News & Events</h2>
+      <div class="news-grid">
+        <div class="news-card">
+          <img src="assets/graduation.jpg" alt="Graduation Ceremony">
+          <div class="news-content">
+            <div class="news-date">June 15, 2025</div>
+            <h3>Annual Graduation Ceremony</h3>
+            <p>Celebrating our graduating class of 2025 with outstanding achievements in academics and character development.</p>
+            <a href="#" class="news-link">Read More</a>
+          </div>
+        </div>
+        
+        <div class="news-card">
+          <img src="assets/science-fair.jpg" alt="Science Fair">
+          <div class="news-content">
+            <div class="news-date">May 28, 2025</div>
+            <h3>Annual Science Fair Winners</h3>
+            <p>Our students showcased innovative projects, with three winning entries advancing to the state competition.</p>
+            <a href="#" class="news-link">Read More</a>
+          </div>
+        </div>
+        
+        <div class="news-card">
+          <img src="assets/sport.jpg" alt="Inter-House Sports">
+          <div class="news-content">
+            <div class="news-date">May 20, 2025</div>
+            <h3>Inter-House Sports Championship</h3>
+            <p>Exciting athletic competitions fostering teamwork, sportsmanship, and healthy competition among our students.</p>
+            <a href="#" class="news-link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admissions Section -->
+  <section id="admissions" class="admissions-section">
+    <div class="container">
+      <div class="admissions-content">
+        <div class="admissions-text">
+          <h2>Join the Amazing Grace Family</h2>
+          <p>Enroll your child in a future-focused learning environment where excellence meets character development. Our admissions process is designed to identify students who will thrive in our community.</p>
+          <div class="admission-benefits">
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Personalized Learning Approach</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>State-of-the-art Facilities</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Experienced Faculty</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Comprehensive Support System</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Start Application Process</a>
+        </div>
+        <div class="admissions-image">
+          <img src="assets/happy-students.jpg" alt="Happy students at Amazing Grace">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Address</strong>
+              <p>123 Education Drive, Victoria Island, Lagos, Nigeria</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Phone</strong>
+              <p>+234 800 123 4567</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <p>info@amazinggraceschool.edu.ng</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Office Hours</strong>
+              <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+        
+        <form class="contact-form" id="contactForm">
+          <h3>Send us a Message</h3>
+          <div class="form-group">
+            <input type="text" name="fullName" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <select name="inquiry" required>
+              <option value="">Select Inquiry Type</option>
+              <option value="admissions">Admissions</option>
+              <option value="academics">Academic Programs</option>
+              <option value="facilities">Facilities Tour</option>
+              <option value="general">General Information</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-background">
+      <img src="assets/footer.jpg" alt="Footer Background">
+      <div class="footer-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <img src="assets/logo.png" alt="AGH Logo">
+            <span>Amazing Grace High School</span>
+          </div>
+          <p>Empowering future leaders through excellence in education and character development since 1998.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#academics">Academic Programs</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#news">News & Events</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Student Life</h4>
+          <ul>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#">Student Handbook</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Clubs & Societies</a></li>
+            <li><a href="#">Alumni</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Contact Info</h4>
+          <div class="contact-details">
+            <p><i class="fas fa-map-marker-alt"></i> 123 Education Drive, Victoria Island, Lagos</p>
+            <p><i class="fas fa-phone"></i> +234 800 123 4567</p>
+            <p><i class="fas fa-envelope"></i> info@amazinggraceschool.edu.ng</p>
+          </div>
+          <div class="newsletter">
+            <h5>Newsletter</h5>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" required>
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Amazing Grace High School. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sign In/Up Modal -->
+  <div id="signInModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeSignInModal()">&times;</span>
+      <div class="auth-container">
+        <div class="auth-toggle">
+          <button class="auth-btn active" onclick="showSignIn()">Sign In</button>
+          <button class="auth-btn" onclick="showSignUp()">Sign Up</button>
+        </div>
+        
+        <!-- Sign In Form -->
+        <form id="signInForm" class="auth-form active">
+          <h3>Welcome Back</h3>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" required>
+          </div>
+          <div class="form-options">
+            <label class="checkbox-label">
+              <input type="checkbox"> Remember me
+            </label>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Sign In</button>
+        </form>
+        
+        <!-- Sign Up Form -->
+        <form id="signUpForm" class="auth-form">
+          <h3>Create Account</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Last Name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number" required>
+          </div>
+          <div class="form-group">
+            <select required>
+              <option value="">Select Role</option>
+              <option value="student">Student</option>
+              <option value="parent">Parent/Guardian</option>
+              <option value="teacher">Teacher</option>
+              <option value="staff">Staff</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" required>
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Confirm Password" required>
+          </div>
+          <div class="form-options">
+            <label class="checkbox-label">
+              <input type="checkbox" required> I agree to the Terms & Conditions
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
